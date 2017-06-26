@@ -1,0 +1,46 @@
+/*============= var ==================== */
+
+$vert: #b5ce00;
+$marge: 427px;
+
+/* ========== Nav ================ */
+
+nav{background-color: $vert;
+width: 1078px;
+margin-left: 427px;
+margin-bottom: 30px;
+
+
+    ul{ display:inline-flex;
+       
+
+        li{list-style: none;
+        margin-left: 48px;
+        
+        
+        
+            a{
+                color: #fff;
+                text-decoration: none;
+                
+            }
+        }
+    }
+}
+
+.vote {
+    margin-left:$marge;
+    background-color: #f2f2f2;
+    background-size: 398px;
+}
+article { margin-left: $marge;
+    hr{
+        width: 704px;
+    }
+    .date {
+        text-align: left;
+        margin-left: 400px;
+        padding-top: -20px;
+    }
+
+}

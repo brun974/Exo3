@@ -22,10 +22,21 @@ nav {
 article {
   margin-left: 427px; }
   article hr {
-    width: 704px; }
+    width: 750px;
+    margin-bottom: 25px;
+    margin-left: -1px; }
   article .date {
-    text-align: left;
+    width: 150px;
     margin-left: 400px;
-    padding-top: -20px; }
+    margin-top: -190px; }
+  article h1, article .Android, article .tatoos, article .bed {
+    margin-left: 400px; }
+  article h1 {
+    font-family: 'Arial';
+    font-size: 25px;
+    width: 343px; }
+  article .Android, article .tatoos, article .bed {
+    font-family: 'sans seif';
+    width: 375px; }
 
 /*# sourceMappingURL=style.css.map */

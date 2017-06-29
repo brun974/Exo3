@@ -5,7 +5,6 @@
     <title></title>
     <meta charset="UTF-8">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="scss.style.scss">
 </head>
 
 <body>
@@ -23,53 +22,59 @@
 
     <img src="img/Vote-grand-format.jpg" alt="Vote" class="vote">
 
-    <article>
-       
-        <img src="img/Android.png" alt="Android">
-        <p class="date">18 AVRIL 2016 | Setra</p>
-        <h1> Un &lsaquo;&lsaquo; mode réalité virtuelle &rsaquo;&rsaquo; sur la prochaine version d'Android ? </h1>
-        <p class="Android">La nouvelle preview d'Android contient des références à un &lsaquo;&lsaquo; VR Mode&rsaquo;&rsaquo; ainsi qu'à deux
-            catégories d'applications appelées VR Helper et VR Listener. </p>
-        <hr>
+    <section>
+        <article>
+            <p class="above1">MOBILE</p>
 
-        <img src="img/Ink-Hunter.png" alt="tatoos">
-        <p class="date">18 AVRIL 2016 | Setra</p>
-        <h1> Ink Hunter, une appli pour tester les tatouages (et éviter l'irréparable) </h1>
-        <p class="tatoos"> En créant cette application, Kateryna Khotchevych rend un grand service à l'humanité. </p>
-        <hr>
-
-        <img src="img/smartress.jpg" alt="bed">
-        <p class="date">18 AVRIL 2016 | Eric</p>
-        <h1> Le matelas connecté qui vous prévient si votre conjoint vous trompe </h1>
-        <p class="bed">Une entreprise madrilène commercialise un matelas qui envoie une alerte sur un smartphone en cas de mouvements suspects.
-        </p>
-        
-         <aside>
+            <img src="img/Android.png" alt="Android">
+            <p class="date">18 AVRIL 2016 | Setra</p>
+            <h1> Un &lsaquo;&lsaquo; mode réalité virtuelle &rsaquo;&rsaquo; sur la prochaine version d'Android ? </h1>
+            <p class="Android">La nouvelle preview d'Android contient des références à un &lsaquo;&lsaquo; VR Mode &rsaquo;&rsaquo; ainsi qu'à
+                deux catégories d'applications appelées VR Helper et VR Listener. </p>
             <hr>
-            <h2>L'APPLI DU JOUR</h2>
+
+            <p class="above2">APPLICATIONS</p>
+            <img src="img/Ink-Hunter.png" alt="tatoos">
+            <p class="date">18 AVRIL 2016 | Setra</p>
+            <h1> Ink Hunter, une appli pour tester les tatouages (et éviter l'irréparable) </h1>
+            <p class="tatoos"> En créant cette application, Kateryna Khotchevych rend un grand service à l'humanité. </p>
+            <hr>
+
+            <p class="above3">OBJETS CONNECTÉS</p>
+            <img src="img/smartress.jpg" alt="bed">
+            <p class="date">18 AVRIL 2016 | Eric</p>
+            <h1> Le matelas connecté qui vous prévient si votre conjoint vous trompe </h1>
+            <p class="bed">Une entreprise madrilène commercialise un matelas qui envoie une alerte sur un smartphone en cas de mouvements
+                suspects.
+            </p>
+        </article>
+
+        <aside>
+            <hr class="vertical">
+            <h2 class="appli">L'APPLI DU JOUR</h2>
             <img src="img/crazy.png" alt="crazy" class="crazy">
             <h3>Crazy Makis</h3>
-            <p>Dans ce jeu de réflexion inspiré du Sudoku, vous ne maniplulez pas des chiffres mais des makis,casse-tête garanti!</p>
-            <img src="img/facebook.jpg" alt="facebook" class="rs">
-            <img src="img/twitter.jpg" alt="twitter" class="rs">
-            <img src="img/google.jpg" alt="google" class="rs">
-            <img src="img/rss.jpg" alt="rss" class="rs">
-            <h2>IDENTIFICATION</h2>
+            <p class="makis">Dans ce jeu de réflexion inspiré du Sudoku, vous ne maniplulez pas des chiffres mais des makis,casse-tête garanti!</p>
+            <div class="conteneur">
+                <img src="img/facebook.jpg" alt="facebook" class="rs">
+                <img src="img/twitter.jpg" alt="twitter" class="rs">
+                <img src="img/google.jpg" alt="google" class="rs">
+                <img src="img/rss.jpg" alt="rss" class="rs">
+            </div>
+            <h2 class="identification">IDENTIFICATION</h2>
             <form>
                 <label for="Username"> Username or <br> Email </label>
                 <input type="text/email" name="user" id="user"> <br>
                 <label for="Password"> Mot de passe </label>
                 <input type="password" name="pass" id="pass">
                 <br>
-                <input type="checkbox" name="remember" id="remember"/> <label for="se souvenir de moi">Se souvenir de moi</label>
+                <input type="checkbox" name="remember" id="remember" /> <label for="se souvenir de moi">Se souvenir de moi</label>
                 <input type="submit" value="Se connecter" id="button" />
-                <p><a href="#">S'inscrire</a></p> |
-                <p><a href="#">Mot de passe perdu?</a></p>
+                <p class="login"><a href="#">S'inscrire</a></p> |
+                <p class="login"><a href="#">Mot de passe perdu?</a></p>
             </form>
         </aside>
-
-    </article>
-
+    </section>
 
 </body>
 

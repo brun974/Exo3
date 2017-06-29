@@ -3,7 +3,6 @@
 nav {
   background-color: #b5ce00;
   width: 1078px;
-  margin-left: 427px;
   margin-bottom: 30px; }
   nav ul {
     display: inline-flex; }
@@ -16,38 +15,51 @@ nav {
 
 /* ==================== Vote ================= */
 .vote {
-  margin-left: 427px;
-  background-color: #f2f2f2;
-  background-size: 398px; }
+  margin-bottom: 51px;
+  background-color: #f2f2f2; }
 
 /* ===================== Article ===================*/
-article {
-  margin-left: 427px; }
-  article hr {
-    width: 750px;
-    margin-bottom: 25px;
-    margin-left: -1px; }
-  article .date {
-    width: 150px;
-    margin-left: 400px;
-    margin-top: -190px; }
-  article h1, article .Android, article .tatoos, article .bed {
-    margin-left: 400px; }
-  article h1 {
-    font-family: 'Arial';
-    font-size: 25px;
-    width: 343px; }
-  article .Android, article .tatoos, article .bed {
-    font-family: 'sans seif';
-    width: 375px; }
+article hr {
+  width: 760px;
+  margin-left: 0px;
+  margin-bottom: 25px; }
+article .date {
+  width: 150px;
+  margin-top: -190px; }
+article .above1, article .above2, article .above3 {
+  color: #fff;
+  height: 27px;
+  padding: 2px 0px 0px 5px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px; }
+article .above1 {
+  background-color: #f2ab35;
+  width: 80px; }
+article .above2 {
+  background-color: #b5ce00;
+  width: 120px; }
+article .above3 {
+  background-color: #b5ce00;
+  width: 170px; }
+article h1, article .date, article .Android, article .tatoos, article .bed {
+  margin-left: 390px; }
+article h1 {
+  font-family: 'Arial';
+  font-size: 25px;
+  width: 343px; }
+article .Android, article .tatoos, article .bed {
+  font-family: 'sans seif';
+  width: 390px;
+  margin-bottom: 31px; }
 
 /* ==================== Aside ==================== */
-aside hr {
+aside .vertical {
   border: none;
   border-left: 1px solid #73848c;
-  height: 1000px;
-  margin-left: 900px;
-  padding-top: 1000px; }
+  height: 1040px;
+  margin-left: 800px;
+  margin-top: -755px; }
 aside h2 {
   background-color: #b5ce00;
   color: #fff;
@@ -57,46 +69,63 @@ aside h2 {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 40px;
+  margin-left: 840px;
   padding-left: 14px;
   padding-top: 14px; }
-aside .crazy {
-  padding-right: 10px; }
+aside h3, aside .makis {
+  margin-left: 1100px; }
+aside .makis {
+  width: 280px;
+  color: #8c8d8f; }
 aside .rs {
-  padding-top: 240px;
-  margin-left: 20px; }
-aside p {
+  margin-right: 60px; }
+aside .appli {
+  margin-top: -1048px; }
+aside .crazy {
+  float: left;
+  clear: after;
+  padding-right: 10px;
+  margin-left: 840px; }
+aside .conteneur {
+  position: relative;
+  margin-left: 840px;
+  margin-right: 23px;
+  margin-top: 230px; }
+aside .identification {
+  margin-top: 23px; }
+aside .login {
   width: 530px;
-  color: #7f8384; }
-aside h3, aside p {
-  margin-left: 10px; }
+  color: #7f8384;
+  margin-left: 0; }
 
 /* ================ Form ======================= */
-form label {
-  margin-right: 20px;
-  display: inline; }
-form input {
+form {
+  margin-left: 840px;
   color: #697478; }
-form p {
-  display: inline; }
-form a {
-  text-decoration: none;
-  color: #697478; }
-form #user, form #pass {
-  display: block;
-  margin-left: 130px;
-  margin-top: -30px;
-  width: 419px;
-  height: 26px; }
-form #user {
-  margin-bottom: 25px; }
-form #remember {
-  margin-bottom: 16px; }
-form #button {
-  display: block;
-  border: 1px solid #d9d9d9;
-  color: #c9b0ab;
-  height: 32px;
-  width: 106px;
-  margin-bottom: 23px; }
+  form label {
+    margin-right: 20px;
+    display: inline; }
+  form p {
+    display: inline; }
+  form a {
+    text-decoration: none;
+    color: #697478; }
+  form #user, form #pass {
+    display: block;
+    margin-left: 130px;
+    margin-top: -30px;
+    width: 419px;
+    height: 26px; }
+  form #user {
+    margin-bottom: 25px; }
+  form #remember {
+    margin-bottom: 16px; }
+  form #button {
+    display: block;
+    border: 1px solid #f9f9f9;
+    color: #acacae;
+    height: 32px;
+    width: 106px;
+    margin-bottom: 23px; }
 
 /*# sourceMappingURL=style.css.map */

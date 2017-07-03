@@ -1,14 +1,21 @@
 /*============= var ==================== */
 
 $vert: #b5ce00;
-$gris : #6e7e97;
+$left : 180px;
+$idem: 1300px;
 
+/* Body */
+
+body {
+   margin:0 auto;
+}
 
 /* ========== Nav ================ */
 
 nav{background-color: $vert;
-width: 1078px;
+width: $idem;
 margin-bottom: 30px;
+margin-left:$left;
 
 
 
@@ -29,17 +36,21 @@ margin-bottom: 30px;
     }
 }
 /* ==================== Vote ================= */
-.vote {
-    
-    margin-bottom: 51px;   
-    background-color: #f2f2f2;
-
+.bcg {
+    background-color: #d9d9d9;
+    margin-bottom: 51px;  
 }
+.vote {
+    width: $idem; 
+    margin-bottom: 51px;  
+    margin-left: $left;
+    padding-top: 34px;
+ }
 
 /* ===================== Article ===================*/
 
 article { 
-    
+    margin-left: $left;
   
     hr{
         width: 760px;
@@ -79,13 +90,13 @@ article {
     }
 
     h1 {
-        font-family: 'Arial';
+        font-family: Arial;
         font-size: 25px;
         width: 343px;
     }
 
     .Android,.tatoos,.bed{
-        font-family: 'sans seif';
+        font-family: sans serif;
         width: 390px;
         margin-bottom:31px;
     }
@@ -95,7 +106,7 @@ article {
 /* ==================== Aside ==================== */
 
 aside{ 
-   
+   margin-left: $left;
     .vertical{ 
         
         border: none;
@@ -118,7 +129,7 @@ aside{
         margin-left:840px;
         padding-left: 14px;
         padding-top: 14px;
-
+        
     }
 
   
